@@ -17,6 +17,8 @@ public class main {
         farmacie.setNume("Reteta framaciei");
         Reteta laborator= (Reteta) prototype.copiaza();
         laborator.setNume("reteta lab");
+        solutii.put("solutie4",10.0F);
+        laborator.setSolutii(solutii);
         System.out.println(farmacie.toString());
         System.out.println(laborator.toString());
     }
